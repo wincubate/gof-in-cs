@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 - Setting the Timer", "1 - Setting the Timer\1 - Setting the Timer.csproj", "{402DD73A-CCEF-4B57-AA5D-54989D0F331D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2 - Refactoring to State Pattern", "2 - Refactoring to State Pattern\2 - Refactoring to State Pattern.csproj", "{11A43BCA-2D50-46D2-B64C-29D7FDB6DE5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 - Slightly More Elegant", "3 - Slightly More Elegant\3 - Slightly More Elegant.csproj", "{F7F9F910-D767-454A-919C-2683C2EA2159}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{402DD73A-CCEF-4B57-AA5D-54989D0F331D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402DD73A-CCEF-4B57-AA5D-54989D0F331D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402DD73A-CCEF-4B57-AA5D-54989D0F331D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402DD73A-CCEF-4B57-AA5D-54989D0F331D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A43BCA-2D50-46D2-B64C-29D7FDB6DE5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A43BCA-2D50-46D2-B64C-29D7FDB6DE5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A43BCA-2D50-46D2-B64C-29D7FDB6DE5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A43BCA-2D50-46D2-B64C-29D7FDB6DE5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F9F910-D767-454A-919C-2683C2EA2159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F9F910-D767-454A-919C-2683C2EA2159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F9F910-D767-454A-919C-2683C2EA2159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F9F910-D767-454A-919C-2683C2EA2159}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D4B5B80-7F27-4FB1-ADFE-20A8A130FBA0}
+	EndGlobalSection
+EndGlobal

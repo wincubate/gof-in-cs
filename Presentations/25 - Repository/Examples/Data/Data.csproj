@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Wincubate.RepositoryExamples.Data</AssemblyName>
+    <RootNamespace>Wincubate.RepositoryExamples.Data</RootNamespace>
+  </PropertyGroup>
+
+</Project>

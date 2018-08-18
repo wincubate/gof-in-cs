@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RollingBack", "RollingBack\RollingBack.csproj", "{00F0AF50-051A-4A33-9361-9A910A6F7355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RollingBack.Test", "RollingBack.Test\RollingBack.Test.csproj", "{D4BE2BB8-9E63-43CA-8B11-84B567D47B0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00F0AF50-051A-4A33-9361-9A910A6F7355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00F0AF50-051A-4A33-9361-9A910A6F7355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00F0AF50-051A-4A33-9361-9A910A6F7355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00F0AF50-051A-4A33-9361-9A910A6F7355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BE2BB8-9E63-43CA-8B11-84B567D47B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BE2BB8-9E63-43CA-8B11-84B567D47B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BE2BB8-9E63-43CA-8B11-84B567D47B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BE2BB8-9E63-43CA-8B11-84B567D47B0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7220117-97EF-4ED2-AF52-E239BEEC2FDC}
+	EndGlobalSection
+EndGlobal

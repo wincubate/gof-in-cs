@@ -1,0 +1,27 @@
+﻿<Window x:Class="Wincubate.MementoExamples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:v="clr-namespace:Wincubate.MementoExamples"
+        xmlns:vm="clr-namespace:Wincubate.MementoExamples"
+        mc:Ignorable="d"
+        Title="Editing and Undoing" Height="350" Width="525">
+    <Window.DataContext>
+        <vm:MainViewModel />
+    </Window.DataContext>
+    <DockPanel>
+        <TextBlock DockPanel.Dock="Top">Name:</TextBlock>
+        <TextBox DockPanel.Dock="Top" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+        <TextBlock DockPanel.Dock="Top">Company:</TextBlock>
+        <TextBox DockPanel.Dock="Top" Text="{Binding Company, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <Button Command="{Binding AddGuestCommand}">Add</Button>
+            <Button Command="{Binding UndoCommand}">Undo</Button>
+        </StackPanel>
+
+        <v:GuestsView DataContext="{Binding Guests}" />
+    </DockPanel>
+</Window>

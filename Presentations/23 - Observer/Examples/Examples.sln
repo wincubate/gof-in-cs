@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - Observing Stocks", "1 - Observing Stocks\1 - Observing Stocks.csproj", "{2250D5A5-96CE-4A6A-A839-A0356F71AEFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - Adding StockObserver", "2 - Adding StockObserver\2 - Adding StockObserver.csproj", "{74909009-9672-430A-806C-87C8603ABF14}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2250D5A5-96CE-4A6A-A839-A0356F71AEFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2250D5A5-96CE-4A6A-A839-A0356F71AEFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2250D5A5-96CE-4A6A-A839-A0356F71AEFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2250D5A5-96CE-4A6A-A839-A0356F71AEFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74909009-9672-430A-806C-87C8603ABF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74909009-9672-430A-806C-87C8603ABF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74909009-9672-430A-806C-87C8603ABF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74909009-9672-430A-806C-87C8603ABF14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E5474FB-7FC1-46A1-8DAB-F9B5040A7CA9}
+	EndGlobalSection
+EndGlobal
