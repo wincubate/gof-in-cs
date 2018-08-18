@@ -1,6 +1,6 @@
 ﻿namespace Cuisines
 {
-    class ItalianCuisine : ICuisine
+    class ItalianFactory : IMealFactory
     {
         // Could have made use of Builder or similar
         public IMainCourse CreateMainCourse()

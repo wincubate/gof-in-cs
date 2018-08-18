@@ -1,7 +1,7 @@
 ﻿namespace Cuisines
 {
-    // This is the Abstract Factory (even though it's not called "Factory" ;-) )
-    interface ICuisine
+    // This is the Abstract Factory
+    interface IMealFactory
     {
         IMainCourse CreateMainCourse();
         IDessert CreateDessert();

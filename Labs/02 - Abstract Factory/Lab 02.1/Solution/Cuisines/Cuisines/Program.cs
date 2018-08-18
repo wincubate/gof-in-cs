@@ -4,13 +4,13 @@
     {
         static void Main(string[] args)
         {
-            //ICuisine cuisine = new ItalianCuisine();
-            ICuisine cuisine = new IndianCuisine();
+            //IMealFactory factory = new ItalianFactory();
+            IMealFactory factory = new IndianFactory();
 
-            IMainCourse main = cuisine.CreateMainCourse();
+            IMainCourse main = factory.CreateMainCourse();
             main.Consume();
 
-            IDessert dessert = cuisine.CreateDessert();
+            IDessert dessert = factory.CreateDessert();
             dessert.Enjoy();
         }
     }
