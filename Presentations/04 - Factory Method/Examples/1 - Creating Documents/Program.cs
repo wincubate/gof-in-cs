@@ -16,7 +16,7 @@ namespace Wincubate.FactoryMethodExamples
 
             Console.WriteLine();
 
-            Publication technicalBook = new Publication("Design Patterns in C#")
+            Publication technicalBook = new Publication("Gang of Four Design Patterns in C#")
             {
                 new Foreword(),
                 new Chapter( 1 ),

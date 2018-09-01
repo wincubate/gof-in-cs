@@ -3,7 +3,7 @@ using System.Threading;
 
 namespace Wincubate.SingletonExamples
 {
-    class Magic
+    sealed class Magic // <-- Note: sealed
     {
         public int Number { get; }
 
@@ -20,7 +20,7 @@ namespace Wincubate.SingletonExamples
         }
         private static Magic _instance;
 
-        public Magic()
+        private Magic() // <-- Note: private
         {
             int[] numbers = { 42, 87, 112, 176, 1880 };
 

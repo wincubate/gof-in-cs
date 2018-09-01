@@ -12,11 +12,11 @@ namespace Wincubate.DecoratorExamples
             IVehicle kawasakiNinja400 = new Motorcycle("Kawasaki Ninja 400 2018",VehicleColor.LimeGreen,2,399);
             IVehicle aprilia = new Motorcycle("Aprilia Shiver 900",VehicleColor.Black,2,896);
 
-            Rental rentalBmwX1 = new Rental(bmwX1, 2);
-            Rental rentalBmwM2 = new Rental(bmwM2, 3);
-            Rental rentalBmwi3 = new Rental(bmwi3, 7);
-            Rental rentalKawasakiNinja400 = new Rental(kawasakiNinja400, 3);
-            Rental rentalAprilia = new Rental(aprilia, 2);
+            Rental rentalBmwX1 = new Rental(bmwX1, true);
+            Rental rentalBmwM2 = new Rental(bmwM2, false);
+            Rental rentalBmwi3 = new Rental(bmwi3, true);
+            Rental rentalKawasakiNinja400 = new Rental(kawasakiNinja400, true);
+            Rental rentalAprilia = new Rental(aprilia, true);
 
             // Rent and return
             Console.WriteLine(rentalBmwX1);
