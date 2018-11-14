@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>Wincubate.RepositoryExamples</AssemblyName>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <RootNamespace>Wincubate.RepositoryExamples</RootNamespace>
+    <AssemblyName>Wincubate.RepositoryExamples</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

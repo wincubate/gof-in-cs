@@ -18,10 +18,10 @@ namespace Wincubate.MementoExamples
 
         public IMemento Memento
         {
-            get => new GuestsViewModelMemento(Items);
+            get => new GuestsViewModelMemento(this);
             set
             {
-                ClearItems();
+                Clear();
 
                 // Make sure value indeed came from GuestsViewModel originally
                 GuestsViewModelMemento memento = (GuestsViewModelMemento)value;

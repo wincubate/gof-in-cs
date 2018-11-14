@@ -6,10 +6,10 @@ namespace Wincubate.MementoExamples
     {
         public IGuestsMemento Memento
         {
-            get => new GuestsViewModelMemento(Items);
+            get => new GuestsViewModelMemento(this);
             set
             {
-                ClearItems();
+                Clear();
                 foreach( Guest g in value.State )
                 {
                     Add(g);

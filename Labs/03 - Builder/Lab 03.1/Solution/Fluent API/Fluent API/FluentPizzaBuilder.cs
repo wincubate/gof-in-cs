@@ -10,7 +10,6 @@ namespace Wincubate.BuilderLabs
         public FluentPizzaBuilder Begin()
         {
             _pizza = new Pizza();
-            _pizza.Toppings = new List<ToppingKind>();
 
             return this;
         }
