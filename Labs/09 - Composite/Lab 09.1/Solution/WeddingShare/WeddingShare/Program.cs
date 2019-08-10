@@ -34,10 +34,7 @@ namespace WeddingShare
             all.MustPay = giftPrice;
 
             // Print the bill
-            foreach (IParticipant participant in all.Participants)
-            {
-                Console.WriteLine( participant );
-            }
+            Console.WriteLine( all );
         }
     }
 }
