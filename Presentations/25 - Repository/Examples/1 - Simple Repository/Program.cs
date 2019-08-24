@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Wincubate.RepositoryExamples.Data;
+using Wincubate.RepositoryExamples.Data.EF;
 
 namespace Wincubate.RepositoryExamples
 {
@@ -8,7 +9,8 @@ namespace Wincubate.RepositoryExamples
     {
         static void Main( string[] args )
         {
-            IProductRepository repository = new ProductRepository();
+            IProductRepository repository = new ProductRepository( new ProductsContext() );
+
             //IProductRepository repository = new InMemoryProductRepository(
             //    new Product { Id = 1, Name = "Continuum Transfunctioner", Manufacturer = "Universal Stuff Inc.", Category = Category.Hardware },
             //    new Product { Id = 2, Name = "Necronomicon Ex Mortis", Manufacturer = "Deadite Press", Category = Category.Book }

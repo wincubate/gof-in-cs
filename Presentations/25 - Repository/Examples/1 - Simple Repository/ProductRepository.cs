@@ -9,9 +9,9 @@ namespace Wincubate.RepositoryExamples
     {
         private readonly ProductsContext _context;
 
-        public ProductRepository()
+        public ProductRepository(ProductsContext context)
         {
-            _context = new ProductsContext();
+            _context = context;
         }
 
         public IEnumerable<Product> GetAll() => _context.Products
