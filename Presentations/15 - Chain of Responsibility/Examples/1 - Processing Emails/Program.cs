@@ -36,8 +36,8 @@ namespace Wincubate.ChainOfResponsibilityExamples
             bool wasProcessed = false;
             foreach (IMessageScreener screener in screeners)
             {
-                ScreeningResponse response = screener.Screen(message);
-                if( response != ScreeningResponse.Unprocessed)
+                ScreeningResponse? response = screener.Screen(message);
+                if( response.HasValue)
                 {
                     Console.WriteLine( $"Message was {response} by {screener.GetType().Name}");
                     wasProcessed = true;

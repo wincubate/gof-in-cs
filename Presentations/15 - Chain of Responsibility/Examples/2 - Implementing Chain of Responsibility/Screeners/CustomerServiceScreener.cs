@@ -2,6 +2,6 @@
 {
     class CustomerServiceScreener : IMessageScreener
     {
-        public ScreeningResponse Screen( IMessage message ) => ScreeningResponse.Accepted;
+        public ScreeningResponse? Screen( IMessage message ) => ScreeningResponse.Accepted;
     }
 }

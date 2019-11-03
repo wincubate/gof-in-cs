@@ -6,8 +6,12 @@ namespace Poker
     {
         public override HandEvaluation Evaluate( Hand hand )
         {
-            if( hand.GroupBy( card => card.Rank ).Count() == 2 &&
-                hand.First().Rank != hand.Last().Rank )
+            var rankGroups = hand
+                .GroupBy(card => card.Rank)
+                ;
+            if ( rankGroups.Count() == 2 &&
+                 rankGroups.All( g => g.Count() >= 2 )
+            )
             {
                 return HandEvaluation.FullHouse;
             }

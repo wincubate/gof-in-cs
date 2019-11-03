@@ -2,13 +2,15 @@
 
 namespace Wincubate.TemplateMethodExamples
 {
-    class JsonPrettyPrinter : PrettyPrinterBase
+    class JsonPrettyPrinter : PrettyPrinter
     {
         private bool _firstProperty;
 
-        public JsonPrettyPrinter() => _firstProperty = true;
-
-        protected override void PrintBegin( string className ) => Console.Write("{");
+        protected override void PrintBegin(string className)
+        {
+            _firstProperty = true;
+            Console.Write("{");
+        }
 
         protected override void PrintEnd( string className ) => Console.WriteLine("}");
 

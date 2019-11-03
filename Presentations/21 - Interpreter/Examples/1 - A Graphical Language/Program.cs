@@ -12,16 +12,12 @@ namespace Wincubate.InterpreterExamples
         // ...
     }
 
-    interface IExpression
+    interface IDrawing
     {
-        void Interpret( Context context );
+        void Interpret(Context context);
     }
 
-    interface IDrawing : IExpression
-    {
-    }
-
-    interface IShape : IExpression
+    interface IShape
     {
     }
 

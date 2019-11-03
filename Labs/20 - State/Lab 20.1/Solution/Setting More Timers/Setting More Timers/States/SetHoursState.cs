@@ -14,7 +14,7 @@ namespace SettingMoreTimers
         }
 
         public override (ConsoleColor color, string Text) Display
-            => (ConsoleColor.Red, $"{_timerHours,2}");
+            => (ConsoleColor.Red, $"{_timerHours:00}");
 
         public override void OnTimerPressed() => ChangeState(new NormalState(_context));
 

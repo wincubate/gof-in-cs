@@ -13,14 +13,14 @@ namespace StoringCards
             _filePath = filePath;
         }
 
-        public List<Card> Load()
+        public IEnumerable<Card> Load()
         {
             using (FileStream input = File.OpenRead(_filePath))
             {
                 byte[] bytes = new byte[2 * 52];
                 int read = input.Read(bytes, 0, bytes.Length);
 
-                List<Card> loaded = new List<Card>();
+                IList<Card> loaded = new List<Card>();
 
                 int i = 0;
                 while (i + 1 < read)
@@ -33,7 +33,7 @@ namespace StoringCards
             }
         }
 
-        public void Save( List<Card> cards )
+        public void Save( IEnumerable<Card> cards )
         {
             using (FileStream output = File.Create(_filePath))
             {

@@ -71,9 +71,14 @@ namespace StoringCards
 
         #region Load and Save
 
-        public void Load() => _cards = _storageStrategy.Load();
+        public void Load() => _cards = _storageStrategy
+            .Load()
+            .ToList()
+            ;
 
-        public void Save() => _storageStrategy.Save(_cards);
+        public void Save() => _storageStrategy
+            .Save(_cards)
+            ;
 
         #endregion
     }

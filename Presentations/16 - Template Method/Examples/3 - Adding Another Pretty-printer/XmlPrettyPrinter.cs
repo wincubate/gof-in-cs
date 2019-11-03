@@ -2,7 +2,7 @@
 
 namespace Wincubate.TemplateMethodExamples
 {
-    class XmlPrettyPrinter : PrettyPrinterBase
+    class XmlPrettyPrinter : PrettyPrinter
     {
         protected override void PrintPreamble() =>
             Console.WriteLine(@"<?xml version=""1.0"" encoding=""UTF-8""?>");

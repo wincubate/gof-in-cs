@@ -37,9 +37,9 @@ namespace Wincubate.StateExamples
                     case StateKind.Normal:
                         return (ConsoleColor.Gray, DateTime.Now.ToShortTimeString());
                     case StateKind.SetHours:
-                        return (ConsoleColor.Red, $"{_timerHours,2}");
+                        return (ConsoleColor.Red, $"{_timerHours:00}");
                     case StateKind.SetMinutes:
-                        return (ConsoleColor.Red, $"{_timerHours,2}:{_timerMinutes,2}");
+                        return (ConsoleColor.Red, $"{_timerHours:00}:{_timerMinutes:00}");
                     case StateKind.Completed:
                         return (ConsoleColor.Green, TimerSet?.ToLongTimeString());
                     default:

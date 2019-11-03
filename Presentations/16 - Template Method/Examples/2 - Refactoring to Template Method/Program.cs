@@ -11,7 +11,12 @@ namespace Wincubate.TemplateMethodExamples
             person.LastName = "Tate";
             person.Occupation = "Office Linebacker";
 
-            PrettyPrinterBase pp = new XmlPrettyPrinter();
+            //dynamic person2 = new ExpandoObject();
+            //person2.FirstName = "Bruce";
+            //person2.LastName = "Campbell";
+            //person2.Occupation = "Jefe";
+
+            PrettyPrinter pp = new XmlPrettyPrinter();
             pp.Print(person, "Person");
         }
     }

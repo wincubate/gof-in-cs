@@ -13,7 +13,7 @@ namespace SettingMoreTimers
         private int _timerMinutes;
 
         public override (ConsoleColor color, string Text) Display
-            => (ConsoleColor.Red, $"{_payload.TimerHours,2}:{_timerMinutes,2}");
+            => (ConsoleColor.Red, $"{_payload.TimerHours:00}:{_timerMinutes:00}");
 
         public SetMinutesState( TimerSetup context, SetMinutesPayload payload ) : base(context)
         {

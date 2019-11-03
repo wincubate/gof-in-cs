@@ -3,13 +3,15 @@ using System;
 
 namespace PrettyMuch
 {
-    class JsonPrettyPrettyPrinter : PrettyPrinterBase
+    class JsonPrettyPrettyPrinter : PrettyPrinter
     {
         private bool _firstProperty;
 
-        public JsonPrettyPrettyPrinter() => _firstProperty = true;
-
-        protected override void PrintBegin( string className ) => Console.Write("{ ");
+        protected override void PrintBegin(string className)
+        {
+            _firstProperty = true;
+            Console.Write("{ ");
+        }
 
         protected override void PrintEnd( string className ) => Console.WriteLine(" }");
 

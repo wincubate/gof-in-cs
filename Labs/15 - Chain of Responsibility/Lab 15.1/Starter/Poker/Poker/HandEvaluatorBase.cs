@@ -24,7 +24,7 @@ namespace Poker
         }
 
         protected bool HasStraight( Hand hand ) =>
-            hand.Distinct().Count() == 5 &&
+            hand.Select( c => c.Rank ).Distinct().Count() == 5 &&
             hand.Last().Rank - hand.First().Rank == 4;
 
         protected bool HasFlush( Hand hand ) =>

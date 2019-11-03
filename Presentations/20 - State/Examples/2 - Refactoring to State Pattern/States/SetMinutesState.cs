@@ -8,7 +8,7 @@ namespace Wincubate.StateExamples
         private int _timerMinutes;
 
         public override (ConsoleColor color, string Text) Display
-            => (ConsoleColor.Red, $"{_timerHours,2}:{_timerMinutes,2}");
+            => (ConsoleColor.Red, $"{_timerHours:00}:{_timerMinutes:00}");
 
         public SetMinutesState( TimerSetup context, int timerHours ) : base(context)
         {

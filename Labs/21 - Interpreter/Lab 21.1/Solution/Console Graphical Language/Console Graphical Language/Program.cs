@@ -6,7 +6,7 @@ namespace ConsoleGraphicalLanguage
     {
         static void Main( string[] args )
         {
-            IExpression drawing = new NextTo(
+            IDrawing drawing = new NextTo(
                 new Rotated(
                     new Box(),
                     45

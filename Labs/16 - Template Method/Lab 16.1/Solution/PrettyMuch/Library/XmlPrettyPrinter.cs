@@ -2,7 +2,7 @@
 
 namespace Library
 {
-    public class XmlPrettyPrinter : PrettyPrinterBase
+    public class XmlPrettyPrinter : PrettyPrinter
     {
         protected override void PrintPreamble() =>
             Console.WriteLine(@"<?xml version=""1.0"" encoding=""UTF-8""?>");

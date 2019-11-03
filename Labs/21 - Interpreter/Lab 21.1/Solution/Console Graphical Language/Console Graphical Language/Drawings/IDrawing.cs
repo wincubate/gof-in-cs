@@ -1,6 +1,7 @@
 ﻿namespace ConsoleGraphicalLanguage
 {
-    interface IDrawing : IExpression
+    interface IDrawing
     {
+        void Interpret(Context context);
     }
 }

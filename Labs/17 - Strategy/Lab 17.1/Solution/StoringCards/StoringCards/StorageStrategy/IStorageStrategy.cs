@@ -4,7 +4,7 @@ namespace StoringCards
 {
     interface IStorageStrategy
     {
-        List<Card> Load();
-        void Save( List<Card> cards );
+        IEnumerable<Card> Load();
+        void Save( IEnumerable<Card> cards );
     }
 }

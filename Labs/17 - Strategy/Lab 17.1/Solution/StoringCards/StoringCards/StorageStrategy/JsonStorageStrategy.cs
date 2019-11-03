@@ -13,15 +13,15 @@ namespace StoringCards
             _filePath = filePath;
         }
 
-        public List<Card> Load()
+        public IEnumerable<Card> Load()
         {
             string serialized = File.ReadAllText(_filePath);
-            List<Card> cards = JsonConvert.DeserializeObject<List<Card>>(serialized);
+            IEnumerable<Card> cards = JsonConvert.DeserializeObject<IEnumerable<Card>>(serialized);
 
             return cards;
         }
 
-        public void Save( List<Card> cards )
+        public void Save( IEnumerable<Card> cards )
         {
             string serialized = JsonConvert.SerializeObject(cards);
             File.WriteAllText(_filePath, serialized);

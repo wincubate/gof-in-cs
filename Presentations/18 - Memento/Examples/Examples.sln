@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2 - Adding Memento", "2 - A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3 - Encapsulating", "3 - Encapsulating\3 - Encapsulating.csproj", "{A249B0F7-829B-461C-B4B8-C2CD1F4A78C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "4 - Adding Redo", "4 - Adding Redo\4 - Adding Redo.csproj", "{A86D4E87-27D5-4805-8584-E3EA8524F681}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

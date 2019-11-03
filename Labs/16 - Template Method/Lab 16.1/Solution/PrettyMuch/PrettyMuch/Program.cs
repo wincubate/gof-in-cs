@@ -12,7 +12,7 @@ namespace PrettyMuch
             person.LastName = "Tate";
             person.Occupation = "Office Linebacker";
 
-            IPrettyPrinter pp = new JsonPrettyPrettyPrinter();
+            IPrettyPrinter pp = new IniFilePrettyPrinter();
             pp.Print(person, "Person");
         }
     }

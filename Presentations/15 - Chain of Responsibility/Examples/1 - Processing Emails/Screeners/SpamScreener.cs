@@ -2,9 +2,9 @@
 {
     class SpamScreener : IMessageScreener
     {
-        public ScreeningResponse Screen( IMessage message ) =>
+        public ScreeningResponse? Screen( IMessage message ) =>
             message.Contents.ContainsAnyOf("viagra", "penis", "$$$") ?
                 ScreeningResponse.Rejected :
-                ScreeningResponse.Unprocessed;
+                default(ScreeningResponse?);
     }
 }

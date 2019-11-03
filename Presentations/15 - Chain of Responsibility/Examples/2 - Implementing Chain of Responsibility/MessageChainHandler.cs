@@ -12,13 +12,13 @@ namespace Wincubate.ChainOfResponsibilityExamples
 
         public IMessageChainHandler AttachNext( IMessageChainHandler next ) => _next = next;
 
-        public ScreeningResponse Screen( IMessage message )
+        public ScreeningResponse? Screen( IMessage message )
         {
-            ScreeningResponse response = _screener.Screen(message);
+            ScreeningResponse? response = _screener.Screen(message);
 
-            if (response == ScreeningResponse.Unprocessed)
+            if (response.HasValue == false)
             {
-                return _next?.Screen(message) ?? ScreeningResponse.Unprocessed;
+                return _next?.Screen(message);
             }
             else
             {

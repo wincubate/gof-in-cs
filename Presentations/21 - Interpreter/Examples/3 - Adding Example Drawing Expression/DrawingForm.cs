@@ -21,7 +21,7 @@ namespace Wincubate.InterpreterExamples
         {
             base.OnPaint(e);
 
-            IExpression drawing = new NextTo
+            IDrawing drawing = new NextTo
             (
                 new Ellipse(),
                 new Inside(

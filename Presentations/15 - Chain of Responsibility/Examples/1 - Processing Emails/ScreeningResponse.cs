@@ -2,7 +2,6 @@
 {
     enum ScreeningResponse
     {
-        Unprocessed,
         Rejected,
         Accepted
     }

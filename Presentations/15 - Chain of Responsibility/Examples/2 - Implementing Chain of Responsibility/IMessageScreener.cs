@@ -2,6 +2,6 @@
 {
     interface IMessageScreener
     {
-        ScreeningResponse Screen( IMessage message );
+        ScreeningResponse? Screen( IMessage message );
     }
 }
