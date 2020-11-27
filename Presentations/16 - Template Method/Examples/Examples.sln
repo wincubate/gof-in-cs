@@ -1,6 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 16
 VisualStudioVersion = 15.0.27004.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - Pretty-printing XML", "1 - Pretty-printing XML\1 - Pretty-printing XML.csproj", "{1ADCB354-0C3C-4953-8A67-7A59D2D04070}"

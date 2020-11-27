@@ -1,6 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 16
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 - Areas and Shapes", "1 - Areas and Shapes\1 - Areas and Shapes.csproj", "{24FFE663-020D-455F-93F9-1B01DC597ACD}"

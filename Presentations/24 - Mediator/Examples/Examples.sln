@@ -1,6 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 16
 VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 - Colleague Chatroom", "1 - Colleague Chatroom\1 - Colleague Chatroom.csproj", "{B5FC2FB4-5790-4AFE-9B21-16B9CE0CD3A0}"

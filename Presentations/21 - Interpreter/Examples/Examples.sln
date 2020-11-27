@@ -1,6 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 16
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 - A Graphical Language", "1 - A Graphical Language\1 - A Graphical Language.csproj", "{9F81171B-2871-4FD8-B8A9-7BD5C5ED162A}"

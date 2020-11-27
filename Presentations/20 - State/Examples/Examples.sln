@@ -1,6 +1,6 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
+# Visual Studio 16
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 - Setting the Timer", "1 - Setting the Timer\1 - Setting the Timer.csproj", "{402DD73A-CCEF-4B57-AA5D-54989D0F331D}"
